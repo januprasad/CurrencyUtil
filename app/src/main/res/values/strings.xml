@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CurrencyUtilDemo</string>
+    <string name="with_inr_unit">With INR Unit</string>
+    <string name="without_inr_unit">Without INR Unit</string>
+    <string name="without_dollar_unit">With Dollar Unit</string>
+    <string name="submit">Submit</string>
+</resources>

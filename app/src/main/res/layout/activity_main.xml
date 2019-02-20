@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/location_detail"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+    <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="13"
+            android:hint="Input"
+            android:inputType="numberDecimal"
+    />
+    <Button android:layout_width="match_parent" android:id="@+id/submit" android:layout_height="wrap_content"
+            android:text="@string/submit"/>
+
+    <TextView
+            android:id="@+id/result_inr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+    />
+
+    <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+    />
+
+    <TextView
+            android:id="@+id/result_dollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+    />
+
+</LinearLayout>
