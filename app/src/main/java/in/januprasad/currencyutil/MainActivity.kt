@@ -1,9 +1,9 @@
 package `in`.januprasad.currencyutil
 
-import `in`.januprasad.bdlibs.BigDecimalUtils.createCurrency
-import `in`.januprasad.bdlibs.toIndianRupee
-import `in`.januprasad.bdlibs.toIndianRupeeWithUnit
-import `in`.januprasad.bdlibs.toUSDollar
+import `in`.januprasad.currencyops.BigDecimalUtils.createCurrency
+import `in`.januprasad.currencyops.toIndianRupee
+import `in`.januprasad.currencyops.toIndianRupeeWithUnit
+import `in`.januprasad.currencyops.toUSDollar
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*

@@ -1,1 +1,1 @@
-include ':app', ':currencylibs'
+include ':app',  ':currencyops'
